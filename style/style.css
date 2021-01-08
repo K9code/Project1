@@ -110,33 +110,40 @@ header h1 span{
             Show Food
 --------------------------------*/
 
-.show-food{
+.show-food {
     margin-top: 80px;
-    padding: 0 50;
+    /*display: block;
+    content: " ";
+    padding-left: 50;
+    padding-right: 50;*/
+}
+
+.show-food {
+    padding-left: 50px;
+    padding-right: 50px; 
 }
 
 .food {
+    padding: 0 50;
     background-color: #2c3e50;
     margin-bottom: 30px;
     width: 100%;
     display: flex;
+    color: #ffff;
 }
 
-.show-food1 p {
-    background-color: #2c3e50;
-    padding: 20px;
-}
-
-.show-food2 p {
+.food:nth-child(2) {
     background-color: #e74c3c;
-    padding: 20px;
 }
 
-.show-food3 p {
-    background-color: #2c3e50;
-    padding: 20px;
+.food:nth-child(3) {
+    background-color: yellow;
 }
 
+.food .food-text {
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
 
 
